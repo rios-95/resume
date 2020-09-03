@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/resume-rios-95/static/css/main.5f361e03.chunk.css",
-    "main.js": "/resume-rios-95/static/js/main.e26c224a.chunk.js",
-    "main.js.map": "/resume-rios-95/static/js/main.e26c224a.chunk.js.map",
-    "runtime-main.js": "/resume-rios-95/static/js/runtime-main.92468d27.js",
-    "runtime-main.js.map": "/resume-rios-95/static/js/runtime-main.92468d27.js.map",
-    "static/js/2.c24a221a.chunk.js": "/resume-rios-95/static/js/2.c24a221a.chunk.js",
-    "static/js/2.c24a221a.chunk.js.map": "/resume-rios-95/static/js/2.c24a221a.chunk.js.map",
-    "index.html": "/resume-rios-95/index.html",
-    "precache-manifest.0b97d60b58b2688164f6b99d4c986714.js": "/resume-rios-95/precache-manifest.0b97d60b58b2688164f6b99d4c986714.js",
-    "service-worker.js": "/resume-rios-95/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/resume-rios-95/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c24a221a.chunk.js.LICENSE.txt": "/resume-rios-95/static/js/2.c24a221a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/resume-rios-95/static/media/logo.5d5d9eef.svg"
+    "main.css": "/resume/static/css/main.5f361e03.chunk.css",
+    "main.js": "/resume/static/js/main.39a7a59f.chunk.js",
+    "main.js.map": "/resume/static/js/main.39a7a59f.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.08eff192.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.08eff192.js.map",
+    "static/js/2.c24a221a.chunk.js": "/resume/static/js/2.c24a221a.chunk.js",
+    "static/js/2.c24a221a.chunk.js.map": "/resume/static/js/2.c24a221a.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.2f3a5160e79f0050aee138cc29204824.js": "/resume/precache-manifest.2f3a5160e79f0050aee138cc29204824.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/resume/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c24a221a.chunk.js.LICENSE.txt": "/resume/static/js/2.c24a221a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/resume/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92468d27.js",
+    "static/js/runtime-main.08eff192.js",
     "static/js/2.c24a221a.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.e26c224a.chunk.js"
+    "static/js/main.39a7a59f.chunk.js"
   ]
 }
