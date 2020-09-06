@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./components/Header.jsx";
 import { Switch, Route, Redirect, HashRouter } from "react-router-dom";
 import routes from "./routes";
@@ -11,7 +11,6 @@ import "font-awesome/css/font-awesome.min.css";
 function App() {
   const loading = () => <CustomLoader />;
 
-  if(window.document.location.pathname !== "/resume") return (window.document.location.replace("/resume#/inicio"))
   return (
     <div className="App">
       <HashRouter>
