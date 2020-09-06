@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import {
-  Container,
   Nav,
   Navbar,
   NavLink,
@@ -9,28 +8,35 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
   NavbarBrand,
   NavbarToggler,
-  Row,
-  Col,
+  NavItem,
+  NavbarText,
 } from "reactstrap";
-const imgStyles = {
-  position:"relative",
-  width:"100%"
-}
-const Layout = (props) => {
+import { Link } from "react-router-dom";
+
+const Header = (props) => {
   //Hooks para el navbar
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <React.Fragment>
       <Navbar color="light" light expand="md">
-        <NavbarBrand>Brian Rios</NavbarBrand>
+        <NavbarBrand>Ríos Brian</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen}  navbar>
           <Nav className="mr-auto" navbar>
+            <NavItem>
+              <NavLink>
+                <Link style={{color:"inherit"}} to="/inicio">Inicio</Link>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>
+                <Link style={{color:"inherit"}} to="/timeline">Timeline</Link>
+              </NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Contacto
@@ -55,15 +61,8 @@ const Layout = (props) => {
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
       </Navbar>
-      <Container>
-        <Row>
-          <Col xs="12" sm="12" md={{size:8,order:1,offset:2}}>
-            <img src={require("../assets/img/Brian_profile_workshop_v2.png")} alt="Brian" style={imgStyles}/>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+    </React.Fragment>
   );
 };
 
-export default Layout;
+export default Header;
