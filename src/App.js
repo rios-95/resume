@@ -7,6 +7,7 @@ import CustomLoader from './decorators/CustomLoader.jsx';
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.min.css";
+import "./customStyles.css";
 
 function App() {
   const loading = () => <CustomLoader />;

@@ -1,0 +1,22 @@
+/* Custom styles */
+.spinnerStyle{
+    top: 50%;
+    left: 50%;
+    height: 24px;
+    position: fixed;
+    width: 100px;
+    margin-top: -12px;
+    margin-left: -50px;
+}
+.text-indigo{
+    color:var(--indigo);
+}
+.text-green{
+    color:var(--green);
+}
+.text-orange{
+    color:var(--orange);
+}
+.text-blue{
+    color:rgb(33, 150, 243);
+}
