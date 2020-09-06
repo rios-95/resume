@@ -11,7 +11,6 @@ import {
   NavbarBrand,
   NavbarToggler,
   NavItem,
-  NavbarText,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 
@@ -42,6 +41,11 @@ const Header = (props) => {
                 Contacto
               </DropdownToggle>
               <DropdownMenu right>
+                <DropdownItem>
+                  <NavLink href="https://www.linkedin.com/in/brian-antonio-rios-a259b1133/" target="_blank">
+                    LinkedIn
+                  </NavLink>
+                </DropdownItem>
                 <DropdownItem>
                   <NavLink
                     href="https://www.instagram.com/lbokrug"

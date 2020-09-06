@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./components/Header.jsx";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Redirect, HashRouter } from "react-router-dom";
 import routes from "./routes";
 import CustomLoader from './decorators/CustomLoader.jsx';
 // Styles
@@ -11,9 +11,10 @@ import "font-awesome/css/font-awesome.min.css";
 function App() {
   const loading = () => <CustomLoader />;
 
+  if(window.document.location.pathname !== "/resume") return (window.document.location.replace("/resume#/inicio"))
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <React.Suspense fallback={loading()}>
           <Header />
           <Switch>
@@ -28,9 +29,10 @@ function App() {
                 />
               ) : null;
             })}
+            <Route key="no-match-route" render={() => <Redirect to="/inicio" />} />
           </Switch>
         </React.Suspense>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
