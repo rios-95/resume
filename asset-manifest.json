@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.5f361e03.chunk.css",
-    "main.js": "/resume/static/js/main.d3d71e50.chunk.js",
-    "main.js.map": "/resume/static/js/main.d3d71e50.chunk.js.map",
-    "runtime-main.js": "/resume/static/js/runtime-main.ef4b506b.js",
-    "runtime-main.js.map": "/resume/static/js/runtime-main.ef4b506b.js.map",
-    "static/css/2.8aa5a7f8.chunk.css": "/resume/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.1aece9b6.chunk.js": "/resume/static/js/2.1aece9b6.chunk.js",
-    "static/js/2.1aece9b6.chunk.js.map": "/resume/static/js/2.1aece9b6.chunk.js.map",
+    "main.css": "/resume/static/css/main.c687c3e8.chunk.css",
+    "main.js": "/resume/static/js/main.e20753a1.chunk.js",
+    "main.js.map": "/resume/static/js/main.e20753a1.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.6e3cba78.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.6e3cba78.js.map",
+    "static/css/2.68be841b.chunk.css": "/resume/static/css/2.68be841b.chunk.css",
+    "static/js/2.766084b4.chunk.js": "/resume/static/js/2.766084b4.chunk.js",
+    "static/js/2.766084b4.chunk.js.map": "/resume/static/js/2.766084b4.chunk.js.map",
+    "static/css/3.ac1ab58b.chunk.css": "/resume/static/css/3.ac1ab58b.chunk.css",
+    "static/js/3.1c0f3d6a.chunk.js": "/resume/static/js/3.1c0f3d6a.chunk.js",
+    "static/js/3.1c0f3d6a.chunk.js.map": "/resume/static/js/3.1c0f3d6a.chunk.js.map",
+    "static/js/4.b06c7993.chunk.js": "/resume/static/js/4.b06c7993.chunk.js",
+    "static/js/4.b06c7993.chunk.js.map": "/resume/static/js/4.b06c7993.chunk.js.map",
+    "static/js/5.19fa3d6b.chunk.js": "/resume/static/js/5.19fa3d6b.chunk.js",
+    "static/js/5.19fa3d6b.chunk.js.map": "/resume/static/js/5.19fa3d6b.chunk.js.map",
     "index.html": "/resume/index.html",
-    "precache-manifest.11e38881fce98d222c2c2ee6b512ec81.js": "/resume/precache-manifest.11e38881fce98d222c2c2ee6b512ec81.js",
+    "precache-manifest.4224f9d759cd32b6f8235b755f98d36c.js": "/resume/precache-manifest.4224f9d759cd32b6f8235b755f98d36c.js",
     "service-worker.js": "/resume/service-worker.js",
-    "static/css/2.8aa5a7f8.chunk.css.map": "/resume/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/resume/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.1aece9b6.chunk.js.LICENSE.txt": "/resume/static/js/2.1aece9b6.chunk.js.LICENSE.txt",
-    "static/media/Brian_profile_workshop_v2.png": "/resume/static/media/Brian_profile_workshop_v2.285d873a.png"
+    "static/css/2.68be841b.chunk.css.map": "/resume/static/css/2.68be841b.chunk.css.map",
+    "static/css/3.ac1ab58b.chunk.css.map": "/resume/static/css/3.ac1ab58b.chunk.css.map",
+    "static/css/main.c687c3e8.chunk.css.map": "/resume/static/css/main.c687c3e8.chunk.css.map",
+    "static/js/2.766084b4.chunk.js.LICENSE.txt": "/resume/static/js/2.766084b4.chunk.js.LICENSE.txt",
+    "static/media/Brian_profile_workshop_v2.png": "/resume/static/media/Brian_profile_workshop_v2.285d873a.png",
+    "static/media/font-awesome.min.css": "/resume/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef4b506b.js",
-    "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.1aece9b6.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d3d71e50.chunk.js"
+    "static/js/runtime-main.6e3cba78.js",
+    "static/css/2.68be841b.chunk.css",
+    "static/js/2.766084b4.chunk.js",
+    "static/css/main.c687c3e8.chunk.css",
+    "static/js/main.e20753a1.chunk.js"
   ]
 }
