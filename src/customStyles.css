@@ -20,3 +20,49 @@
 .text-blue{
     color:rgb(33, 150, 243);
 }
+
+.verticallyCentered{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.container{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+fieldset{
+    border-style: groove;
+    padding-left:10px;
+    padding-right:10px;
+    border-width: thin;
+}
+legend{
+    width:inherit;
+    padding-left:5px;
+    padding-right:5px;
+}
+.row{
+    margin-bottom: 1.5rem;
+}
+.infoCard{
+    text-align:left;
+}
+.infoCard h5{
+    display: inline;
+}
+.infoCard .card-body{
+    margin-left: 2.1rem;
+}
+.iconLabel{
+    width: 2.1rem;
+    color:var(--primary);
+}
+.dateLabel{
+    color: var(--secondary);
+    float: right;
+}
+.subtitleItem{
+    margin: 0;
+    font-style: italic;
+}

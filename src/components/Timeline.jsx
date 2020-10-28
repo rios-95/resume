@@ -47,7 +47,7 @@ const cards = [
   },{
 		title: "Egreso de la técnica",
     subtitle: "Técnico en informática personal y profesional",
-    text: "Egresé de la EET N°1 con un promedio de 8,66. Para este punto descubrí cuál sería mi área de interés profesional :)",
+    text: "Egresé de la EET N°1 con un promedio de 8,50. Para este punto descubrí cuál sería mi área de interés profesional :)",
     date: "Dic 2014",
     style: "blue",
     icon: "fa fa-graduation-cap fa-lg",
@@ -76,7 +76,7 @@ const cards = [
   },{
 		title: "Siguiente desafío",
     subtitle: "Seguridad informática",
-    text: "Me interesa especializarme en esta área. Inicié leyendo un libro sobre forensia digital (InfoLab) y en mis ratos libres realizo cursos sobre seguridad en desarrollo y pentesting",
+    text: "Me interesa especializarme en este área. Inicié leyendo un libro sobre forensia digital (InfoLab), asistiendo a conferencias y en mis ratos libres realizo cursos online sobre distintas temáticas de seguridad informática",
     date: "Actualidad",
 		icon: "fa fa-briefcase fa-lg",
     style: "danger",

@@ -47,14 +47,6 @@ const Header = (props) => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink
-                    href="https://www.instagram.com/lbokrug"
-                    target="_blank"
-                  >
-                    Instagram
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem>
                   <NavLink href="mailto:rios.ba95@gmail.com" target="_blank">
                     Gmail
                   </NavLink>
