@@ -32,22 +32,24 @@ const Main = () => {
           </Col>
         </Row> */}
         <Row>
-          <Col sm="12" md="8" lg="8">
-            <Card className="verticallyCentered">
-              <CardBody>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
-                veniam. Provident, quaerat officiis dolor illo debitis error
-                vitae accusamus iure qui unde explicabo officia ea velit
-                voluptate incidunt odio iste?
-              </CardBody>
-            </Card>
-          </Col>
           <Col sm="12" md="4" lg="4">
             <img
               src={require("../assets/img/brian.jpg")}
               alt="Brian"
               style={profilePhotoStyles}
+              className="verticallyCentered"
             />
+          </Col>
+          <Col sm="12" md="8" lg="8">
+            <Card className="verticallyCentered">
+              <CardBody>
+                ¡Hola!, bienvenid@ a mi página de presentación.<br/> 
+                Mi nombre es Brian Rios, soy estudiante de 4to año de Ingeniería en Sistemas de Información 
+                en la UTN y me desempeño como desarrollador de software hace casi tres años. 
+                Desde la secundaria mantengo contacto con la informática y la programación, y actualmente tengo
+                un gran interés en especializarme en seguridad informática.
+              </CardBody>
+            </Card>
           </Col>
         </Row>
         <Row>
@@ -115,7 +117,9 @@ const Main = () => {
                   title="Fullstack developer"
                   date="2018 - Actualidad"
                   subtitle="ITPort"
-                  text="Me desempeño en el mantenimiento y desarrollo de sistemas con interfaz web. Con los últimos proyectos profundicé mis conocimientos en React y Express."
+                  text="En mis primeras tareas realicé el mantenimiento y desarrollo de nuevos módulos
+                  sobre sistemas con php sobre Codeigniter, MySql y jQuery.
+                  Posteriormente me desempeñé en el desarrollo desde cero de sistemas con ReactJS y NodeJS"
                 />
               </CardBody>
             </Card>
