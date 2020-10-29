@@ -13,11 +13,16 @@ import {
   NavItem,
 } from "reactstrap";
 import { Link } from "react-router-dom";
+import MyCV from '../assets/CV/CV_BAR_2020-10.pdf';
 
 const Header = (props) => {
   //Hooks para el navbar
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+
+  const descargarCV = () => {
+    ('../assets/CV/CV_BAR_2020-10.pdf');
+  }
 
   return (
     <React.Fragment>
@@ -57,6 +62,12 @@ const Header = (props) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <NavItem>
+              <NavLink>
+                <a style={{color:"inherit"}} target="_blank" download="My_pdf.pdf" href={MyCV}>
+                  Descargar CV</a>
+              </NavLink>
+            </NavItem>
           </Nav>
           {/* <NavbarText>Simple Text</NavbarText> */}
         </Collapse>
