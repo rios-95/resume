@@ -3,7 +3,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { Container, Badge } from "reactstrap";
+import { Container, Badge, Alert } from "reactstrap";
 import "react-vertical-timeline-component/style.min.css";
 
 const styles = {
@@ -86,6 +86,9 @@ const cards = [
 const Timeline = () => {
   return (
     <Container>
+        <Alert color="info" style={{marginBottom:0}}>
+          En esta <i>timeline</i> destaco algunos eventos importantes de mi vida 
+        </Alert>
         <VerticalTimeline>
           {cards.map((card, idx) => {
             return (
@@ -114,7 +117,7 @@ const Timeline = () => {
                 <h4 className={"vertical-timeline-element-subtitle text-"+card.style}>
                   {card.subtitle ?? ""}
                 </h4>
-                <p>{card.text ?? ""}</p>
+                <p className="text-justify">{card.text ?? ""}</p>
               </VerticalTimelineElement>
             );
           })}

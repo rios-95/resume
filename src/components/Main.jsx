@@ -10,7 +10,7 @@ const Main = () => {
       <label class="dateLabel">{date}</label>
       <h5>{title}</h5>
       <p class="subtitleItem">{subtitle}</p>
-      <p>{text}</p>
+      <p className="text-justify">{text}</p>
     </div>
   );
 
@@ -35,7 +35,7 @@ const Main = () => {
             />
           </Col>
           <Col sm="12" md="8" lg="8">
-            <Card className="verticallyCentered">
+            <Card className="verticallyCentered text-justify">
               <CardBody>
                 ¡Hola!, bienvenid@ a mi página de presentación.<br/> 
                 Mi nombre es Brian Rios, soy estudiante de 4to año de Ingeniería en Sistemas de Información 
