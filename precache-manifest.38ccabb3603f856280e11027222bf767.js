@@ -1,47 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91e0b9d1146e92aecf7451a41e6e60c1",
+    "revision": "c16665cefa8e992e5ddf25e1390b252c",
     "url": "/resume/index.html"
   },
   {
-    "revision": "b4215b5dc4fab8e9ea4e",
+    "revision": "3976b43e2a4e3a34c9a8",
     "url": "/resume/static/css/2.68be841b.chunk.css"
   },
   {
-    "revision": "8755463e4cb18878d59f",
+    "revision": "f2823caa6e54d9e31dd4",
     "url": "/resume/static/css/3.ac1ab58b.chunk.css"
   },
   {
-    "revision": "2d094f93d05e816ab34c",
+    "revision": "f9993604d12ec907ff72",
     "url": "/resume/static/css/main.30aac340.chunk.css"
   },
   {
-    "revision": "b4215b5dc4fab8e9ea4e",
-    "url": "/resume/static/js/2.a91c7a64.chunk.js"
+    "revision": "3976b43e2a4e3a34c9a8",
+    "url": "/resume/static/js/2.06099f31.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/resume/static/js/2.a91c7a64.chunk.js.LICENSE.txt"
+    "url": "/resume/static/js/2.06099f31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8755463e4cb18878d59f",
-    "url": "/resume/static/js/3.abcad851.chunk.js"
+    "revision": "f2823caa6e54d9e31dd4",
+    "url": "/resume/static/js/3.7021153e.chunk.js"
   },
   {
-    "revision": "b4e36b8cddf74ee57b0e",
-    "url": "/resume/static/js/4.dac126d2.chunk.js"
+    "revision": "78eac49bc06ea036fd7b",
+    "url": "/resume/static/js/4.fbac2d11.chunk.js"
   },
   {
-    "revision": "a4cfbc509284c0cd833b",
-    "url": "/resume/static/js/5.c3fecdb1.chunk.js"
+    "revision": "8f5f0fe56283ff2398aa",
+    "url": "/resume/static/js/5.553e5817.chunk.js"
   },
   {
-    "revision": "2d094f93d05e816ab34c",
-    "url": "/resume/static/js/main.55fb3652.chunk.js"
+    "revision": "f9993604d12ec907ff72",
+    "url": "/resume/static/js/main.cc05d5ed.chunk.js"
   },
   {
-    "revision": "f476abf270cf2e43a4f1",
-    "url": "/resume/static/js/runtime-main.35472cec.js"
+    "revision": "a7e4a03ad3733ff722db",
+    "url": "/resume/static/js/runtime-main.7e4f497c.js"
+  },
+  {
+    "revision": "386683c62ef95f0f617c2e4a944b9377",
+    "url": "/resume/static/media/CV_BAR_2020-10.386683c6.pdf"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
