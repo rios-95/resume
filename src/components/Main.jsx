@@ -1,14 +1,6 @@
 import React, {useState} from "react";
 import { Container, Row, Col, CardHeader, Card, CardBody, Progress, Button, UncontrolledCollapse } from "reactstrap";
 
-// const imgStyles = {
-//   position: "relative",
-//   width: "100%",
-// };
-const profilePhotoStyles = {
-  maxWidth: 200,
-  borderRadius: 40,
-};
 const Main = () => {
   //Hooks
   const [skillsOpen,setSkillsOpen] = useState(false);
@@ -39,8 +31,7 @@ const Main = () => {
             <img
               src={require("../assets/img/brian.jpg")}
               alt="Brian"
-              style={profilePhotoStyles}
-              className="verticallyCentered"
+              className="verticallyCentered profilePhoto"
             />
           </Col>
           <Col sm="12" md="8" lg="8">
