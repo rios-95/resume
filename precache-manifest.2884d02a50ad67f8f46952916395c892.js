@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77ee21bdea273a71b885baf883236c40",
+    "revision": "4df21d589628b6a7026c5b16d7da5ffb",
     "url": "/resume/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/css/3.ac1ab58b.chunk.css"
   },
   {
-    "revision": "bc930141973aa3498018",
+    "revision": "a51268b19a3fbd75aabc",
     "url": "/resume/static/css/main.30aac340.chunk.css"
   },
   {
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/js/5.553e5817.chunk.js"
   },
   {
-    "revision": "bc930141973aa3498018",
-    "url": "/resume/static/js/main.cdd17d92.chunk.js"
+    "revision": "a51268b19a3fbd75aabc",
+    "url": "/resume/static/js/main.5bce0ada.chunk.js"
   },
   {
     "revision": "a7e4a03ad3733ff722db",
     "url": "/resume/static/js/runtime-main.7e4f497c.js"
   },
   {
-    "revision": "386683c62ef95f0f617c2e4a944b9377",
-    "url": "/resume/static/media/CV_BAR_2020-10.386683c6.pdf"
+    "revision": "18ec259fcd155f2e1aad2fce3b79fa84",
+    "url": "/resume/static/media/CV_BAR_2020-10.18ec259f.pdf"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
