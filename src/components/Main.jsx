@@ -1,5 +1,5 @@
-import React from "react";
-import { Container, Row, Col, CardHeader, Card, CardBody } from "reactstrap";
+import React, {useState} from "react";
+import { Container, Row, Col, CardHeader, Card, CardBody, Progress, Button, UncontrolledCollapse } from "reactstrap";
 
 // const imgStyles = {
 //   position: "relative",
@@ -10,6 +10,9 @@ const profilePhotoStyles = {
   borderRadius: 40,
 };
 const Main = () => {
+  //Hooks
+  const [skillsOpen,setSkillsOpen] = useState(false);
+
   const InfoItem = ({ title, subtitle, text, date }) => (
     <div>
       <label class="dateLabel">{date}</label>
@@ -72,7 +75,7 @@ const Main = () => {
                   title="Universitaria"
                   date="2016 - Actualidad"
                   subtitle="UTN FRBA"
-                  text="Ingeniería en Sistemas de Información"
+                  text="Ingeniería en Sistemas de Información. 50% de las materias aprobadas."
                 />
               </CardBody>
             </Card>
@@ -85,7 +88,7 @@ const Main = () => {
                 <label className="iconLabel">
                   <i className="fa fa-code fa-lg"></i>
                 </label>
-                <h5>Cursos</h5>
+                <h5>Cursos+</h5>
               </CardHeader>
               <CardBody>
                 <InfoItem
@@ -98,6 +101,12 @@ const Main = () => {
                   date="2020"
                   subtitle="Miríadax - UTN FRBA"
                   text="Curso introductorio de 20hs"
+                />
+                <InfoItem
+                  title="Bonus: Informática forense"
+                  date="2018"
+                  text="Leí 'El rastro digital del delito: Aspectos técnicos y legales de la informática forense'
+                  del equipo Info-Lab de la universidad Fasta. ¡Muy interesante!"
                 />
               </CardBody>
             </Card>
@@ -119,8 +128,35 @@ const Main = () => {
                   subtitle="ITPort"
                   text="En mis primeras tareas realicé el mantenimiento y desarrollo de nuevos módulos
                   sobre sistemas con php sobre Codeigniter, MySql y jQuery.
-                  Posteriormente me desempeñé en el desarrollo desde cero de sistemas con ReactJS y NodeJS"
+                  Posteriormente me desempeñé en el desarrollo desde cero de sistemas con ReactJS y NodeJS."
                 />
+                <div>
+                  <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}
+                    onClick={() => setSkillsOpen(!skillsOpen)}
+                    className="btn btn-ghost-info"
+                  >
+                    {skillsOpen ? (
+                      <i class="fa fa-arrow-up"></i>
+                    ):(
+                      <i class="fa fa-arrow-down"></i>
+                    )}
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler">
+                  <div className="text-center">Frontend</div>
+                  <div>
+                    <Progress value="50" color="secondary">jQuery</Progress>
+                    <Progress value="70" color="warning">JavaScript</Progress>
+                    <Progress value={80}>React</Progress>
+                  </div>
+                  <div className="text-center">Backend</div>
+                  <div>
+                    <Progress value="80" color="danger">MySQL / MariaDB</Progress>
+                    <Progress value="60" color="info">PhP</Progress>
+                    <Progress value="70" color="success">ExpressJS</Progress>
+                  </div>
+                  </UncontrolledCollapse>
+                </div>
+                
               </CardBody>
             </Card>
           </Col>

@@ -43,11 +43,15 @@ const Header = (props) => {
               <DropdownMenu right>
                 <DropdownItem>
                   <NavLink href="https://www.linkedin.com/in/brian-antonio-rios-a259b1133/" target="_blank">
+                    <i class="fa fa-linkedin text-primary"></i>
+                    {" "}
                     LinkedIn
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
                   <NavLink href="mailto:rios.ba95@gmail.com" target="_blank">
+                    <i class="fa fa-google text-danger"></i>
+                    {" "}
                     Gmail
                   </NavLink>
                 </DropdownItem>

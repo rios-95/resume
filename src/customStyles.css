@@ -66,3 +66,12 @@ legend{
     margin: 0;
     font-style: italic;
 }
+.progress {
+    margin-bottom: 1rem;
+}
+.btn-ghost-info {
+    color: #63c2de;
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+}
